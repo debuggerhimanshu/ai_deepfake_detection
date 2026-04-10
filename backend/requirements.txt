@@ -1,0 +1,31 @@
+# DeepGuard Backend Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Web Framework ──────────────────────────────────────────────────────
+flask==3.0.0
+flask-cors==4.0.0
+werkzeug==3.0.1
+
+# ── Core Science Stack ────────────────────────────────────────────────
+numpy==1.26.2
+scipy==1.11.4
+
+# ── Video Processing ──────────────────────────────────────────────────
+opencv-python==4.8.1.78   # cv2 — video frame extraction
+
+# ── Audio Processing ──────────────────────────────────────────────────
+librosa==0.10.1            # MFCC feature extraction
+soundfile==0.12.1          # Audio file I/O backend
+
+# ── Machine Learning ──────────────────────────────────────────────────
+scikit-learn==1.3.2        # For audio RandomForest classifier
+joblib==1.3.2              # Model serialization
+
+# ── Deep Learning (optional — for real CNN model) ─────────────────────
+# Uncomment if you have a trained .h5 model:
+# tensorflow==2.14.0
+# or for lighter option:
+# tensorflow-cpu==2.14.0
+
+# ── Utilities ─────────────────────────────────────────────────────────
+python-dotenv==1.0.0
