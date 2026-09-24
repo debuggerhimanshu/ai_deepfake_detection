@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🛡️ DeepGuard — AI-Based Deepfake Video & Audio Detector
 
 > An intermediate-level exhibition project demonstrating real-world deepfake detection using computer vision, audio signal processing, and machine learning.
