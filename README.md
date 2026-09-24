@@ -216,7 +216,6 @@ Think of it like a voiceprint. Your voice has a unique "shape" in frequency spac
 ---
 
 ## 📄 License
-MIT — Free for educational and exhibition use it.
+MIT Free for educational and exhibition use it.
 =======
 # ai_based_deepfake_detection_system
->>>>>>> 9a4208ef45dcd73dd48f727d7490f56f00e97add
